@@ -1,0 +1,80 @@
+body {
+	font-family: 'Vollkorn', sans-serif;
+	margin: 0;
+	margin-top: 70px;
+}
+h2 {
+	margin-top: 0;
+}
+i {
+	color: white;
+	margin: 0;
+	padding: 7px 10px 0 0;
+	float: right;
+}
+a {
+	color: #1E1E1E;
+}
+a i:hover {
+	color: #1E1E1E;
+}
+.container {
+	height: 100vh;
+}
+.head {
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	position: relative;
+	width: 600px;
+	height: 450px;
+	background-image: image-url("trees.jpeg");
+	margin: auto;
+}
+.head h1 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 7em;
+	color: white;
+	margin: 10px;
+	padding-top: 100px;
+	clear: both;
+	text-align: center;
+}
+.head a p {
+	font-family: 'Cabin', sans-serif;
+	padding: 7px 10px 0 0;
+	color: white;
+	float: right;
+}
+.head a p:hover {
+	color: #1E1E1E;
+}
+.fixed-width {
+	font-family: 'Vollkorn', sans-serif;
+	width: 902px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fixed-width h2 {
+	font-size: 3em;
+	border-bottom: 2px solid #1E1E1E;
+}
+.fixed-width p {
+	font-size: 1.2em;
+}
+.fixed-width ul li {
+	font-size: 1.2em;
+}
+.footer {
+	padding-top: 25px;
+}
+.footer p {
+	font-size: 1em;
+	text-align: center;
+	border-top: 2px solid #1E1E1E;
+	border-bottom: 2px solid #1E1E1E;
+}
+.no-link-style {
+	text-decoration: none;
+}

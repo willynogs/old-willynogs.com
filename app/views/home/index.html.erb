@@ -1,0 +1,125 @@
+<div class="container">
+  <div class="head data-stellar-background-ratio=" 0.5 "">
+    <%= link_to(:blogs) do %>
+      <p>BLOG</p>
+    <% end %>
+    <a href="mailto:willynogs@gmail.com"><%= fa_icon "envelope 3x" %></a>
+    <a href="http://linkedin.com/in/willnaugle" target="_blank"><%= fa_icon "linkedin-square 3x" %></a>
+    <a href="https://github.com/willynogs" target="_blank"><%= fa_icon "github-square 3x" %></a>
+    <h1>Will Naugle</h1>
+  </div>
+</div>
+<div class="fixed-width">
+  <div class="about">
+    <h2>About:</h2>
+    <p>I am a third year student at The Ohio State University. I am studying German and Computer & Information Science. Currently I am a Student Web Developer for the university. In the summer of 2015 I spent ten weeks in Dresden, Germany studying German language and culture. My main interests are in web and ios development. If you have any questions or inquiries feel free to email me!</p>
+  </div>
+  <div class="skills">
+    <h2>Skills:</h2>
+      <p>I am always working towards becoming a better developer, however, my current skills include:</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript (jQuery)</li>
+        <li>Ruby on Rails</li>
+        <li>Swift</li>
+      </ul>
+  </div>
+  <div class="portfolio">
+      <h2>Portfolio:</h2>
+      <div class="ui link cards">
+        
+        <div class="ui card">
+          <a class="image" href="https://kanye-today.herokuapp.com/">
+            <%= image_tag("kanye-today.png") %>
+          </a>
+          <div class="content">
+            <a class="header no-link-style" href="https://kanye-today.herokuapp.com/">Kanye Today</a>
+            <div class="meta">
+              <span class="date">Ruby on Rails/Twitter API</span>
+            </div>
+            <div class="description">
+              Using the Twitter API and Ruby on Rails I created a web app that collects Kanye West's tweets and analyzes them.
+            </div>
+          </div>
+          <div class="extra content">
+            <a class="no-link-style" target="_blank" href="https://github.com/willynogs/Kanye-Today">View Github repo</a>
+          </div>
+        </div>
+        
+        <div class="ui card">
+          <a class="image" href="http://willynogs.com">
+            <%= image_tag("trees.jpeg") %>
+          </a>
+          <div class="content">
+            <a class="header no-link-style" href="http://willynogs.com">Personal Website</a>
+            <div class="meta">
+              <span class="date">HTML/CSS/Javascript</span>
+            </div>
+            <div class="description">
+              I created this website with my own original HTML and CSS. I then implemented <a target="_blank" href="http://markdalgleish.com/projects/stellar.js/">Stellar.js</a> for a parallax scrolling effect, and <a target="_blank" href="http://semantic-ui.com/views/card.html">Semantic UI</a> for the portfolio cards. I moved this project to rails in order to create a <%= link_to 'blog', :blogs %>.
+            </div>
+          </div>
+          <div class="extra content">
+            <a class="no-link-style" target="_blank" href="https://github.com/willynogs/willynogs.github.io">View Github repo</a>
+          </div>
+        </div>
+
+        <div class="ui card">
+          <a class="image" href="https://osuitsm.service-now.com/selfservice/">
+            <%= image_tag("service_now.png") %>
+          </a>
+          <div class="content">
+            <a class="header no-link-style" href="http://willynogs.com">Ohio State ServiceNow</a>
+            <div class="meta">
+              <span class="date">HTML/CSS/Javascript</span>
+            </div>
+            <div class="description">
+              I currently work as a Student Devloper for Ohio State's OCIO. I work on the ServiceNow team helping to manage our instance of the ServiceNow platform. This position includes working with CSS, HTML, Angular, Rails, working in an Agile enviroment, as well as many other things.
+            </div>
+          </div>
+          <div class="extra content">
+            See examples (currently empty)
+          </div>
+        </div>
+
+        <div class="ui card">
+          <a class="image" target="_blank" href="https://desolate-basin-2060.herokuapp.com/">
+            <%= image_tag("twitter.png") %>
+          </a>
+          <div class="content">
+            <a class="header no-link-style" target="_blank" href="https://desolate-basin-2060.herokuapp.com/">Twitter Clone</a>
+            <div class="meta">
+              <span class="date">Ruby on Rails</span>
+            </div>
+            <div class="description">
+              This is a Twitter clone I created by following Michael Hartl's <a target="_blank" href="https://www.railstutorial.org/">Rails Tutorial</a>. This project utilizes Bootstrap and is hosted on Heroku.
+            </div>
+          </div>
+          <div class="extra content">
+            <a class="no-link-style" target="_blank" href="https://github.com/willynogs/rails_tutorial">View Github repo</a>
+          </div>
+        </div>
+        <div class="ui card">
+          <a class="image" target="_blank" href="realfriends.html">
+            <%= image_tag("boyz.jpg") %>
+          </a>
+          <div class="content">
+            <a class="header no-link-style" target="_blank" href="realfriends.html">THREE.js Experiment</a>
+            <div class="meta">
+              <span class="date">THREE.js</span>
+            </div>
+            <div class="description">
+              This is just an experiment with THREE.js.
+            </div>
+          </div>
+          <div class="extra content">
+            <a class="no-link-style" target="_blank" href="https://github.com/willynogs/willynogs.github.io">View Github repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>2016 Will Naugle</p>
+    </div>
+  </div>

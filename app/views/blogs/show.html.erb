@@ -1,0 +1,14 @@
+<div class="back-button shake-horizontal">  
+  <%= link_to(:blogs) do %>
+    <%= fa_icon "arrow-left 2x" %>
+    <h3>BACK</h3>
+  <% end %>
+</div>
+<div class="fixed-width">
+  <div class="post-header">
+    <h1><%= @blog.title %></h1>
+  </div>
+</div>
+  <div class="post-content">
+    <%= @blog.content %>
+  </div>

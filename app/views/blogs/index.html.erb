@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+<div class="admin-control">
+  <% if admin_signed_in? %>
+    <%= link_to 'New Blog', new_blog_path %>
+    </br>
+    <%= link_to 'Sign out', :destroy_admin_session, :method => :delete %>
+  <% end %>
+</div>
+<div class="blog-home">
+  <div class="blog-head data-stellar-background-ratio=" 0.5 "">
+    <%= link_to(:root) do %>
+      <p>BACK TO WILLYNOGS.COM</p>
+    <% end %>
+    <h1>Nog Blog</h1>
+  </div>
+
+  <div class="fixed-width">
+    <div class="ui link cards">
+      <% @blogs.each do |blog| %>
+        <div class="ui card">
+          <%= link_to image_tag(blog.image), blog, :class => "image" %>
+          <div class="content">
+            <%= link_to blog.title, blog, :class => "header no-link-style" %>
+            <div class="meta">
+              <span class="date"><%= blog.created_at.strftime('%B %d, %G') %></span>
+            </div>
+            <div class="description">
+              <%= blog.content.truncate_words(20) %>
+            </div>
+            <div class="post-controls">
+              <% if admin_signed_in? %>
+                <%= link_to 'Show', blog %>
+                <%= link_to 'Edit', edit_blog_path(blog) %>
+                <%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="footer">
+      <p>2016 Will Naugle</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+.admin-control {
+	float: left;
+	clear: both;
+}
+.back-button {
+	font-family: 'Cabin', sans-serif;
+	padding: 0 0 0 15px;
+}
+.back-button i {
+	color: black;
+	float: left;
+}
+.back-button a {
+	color: black;
+	text-decoration: none;
+}
+.back-button h3 {
+	font-size: 2.4em;
+}
+.blog-head {
+    background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+	position: relative;
+	width: 902px;
+	height: 250px;
+	background-image: image-url("ocean.jpeg");
+	margin: auto;
+	margin-bottom: 30px;
+}
+.blog-head h1 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 7em;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 8px 0 0 0;
+}
+.blog-head a p {
+	font-family: 'Cabin', sans-serif;
+	padding: 7px 10px 0 0;
+	color: white;
+	float: right;
+	margin: 0;
+}
+.blog-head a p:hover {
+	color: #1E1E1E;
+}
+.posts {
+	border: 3px solid black;
+	font-family: 'Vollkorn', sans-serif;
+	width: 902px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.post-header h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 7em;
+	border-bottom: 3px solid black;
+}
+.post-content {
+	width: 802px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
